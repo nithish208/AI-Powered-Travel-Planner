@@ -1,4 +1,4 @@
 streamlit
-langchain_google_genai
-langchain.schema
-datetime
+langchain-google-genai
+langchain
+google-generativeai
