@@ -12,7 +12,7 @@ if not GOOGLE_API_KEY:
 
 # Initialize Gemini model with API key
 try:
-    llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash-exp", google_api_key="AIzaSyCiKYXquEGS7aU0qCUXFfIRVJepTv1X4Gs")
+    llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash-exp", google_api_key=GOOGLE_API_KEY)
 except Exception as e:
     st.error(f"Error initializing Gemini: {e}")
     st.stop()
