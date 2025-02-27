@@ -1,4 +1,0 @@
-streamlit
-langchain_google_genai
-langchain.schema
-datetime
